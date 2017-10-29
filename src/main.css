@@ -7,7 +7,15 @@ body{
 }
 #img-profil{
     float:right;
-    border:2;
+    margin : 5px;
+}
+#img-info{
+    float:left;
+    margin:5px;
+}
+#img-water{
+    float:right;
+    margin:5px;
 }
 #background-2{
     background-color: rgb(81, 100, 151);
