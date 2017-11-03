@@ -2,7 +2,21 @@
 
 > Projet réalisé dans le cadre de la deuxième année HEG, filière -  informatique de gestion. Ayant comme objectif la conception d'un CV utilisant Bootstrap et Jquery.
 
+
 # Processus et outils utilisés
+
+## Outils en bref
+
+- GitHub
+- Git
+- Visual Studio Code
+- Node.js
+- Npm
+- Webpack
+- Bootstrap
+- Jquery
+- Chart.js
+- Gimp 2
 
 ## Installation de git
 _Logiciel de gestion de version_
