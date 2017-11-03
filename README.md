@@ -1,4 +1,4 @@
-# moncv
+# Projet de technologie web
 
 > Projet réalisé dans le cadre de la deuxième année HEG, filière -  informatique de gestion. Ayant comme objectif la conception d'un CV utilisant Bootstrap et Jquery.
 
@@ -52,10 +52,6 @@ _Bibliothèque javascript qui permet la création de graphique tel que les "doug
 
 `npm run dev`
 
-## Build du site
-
-`npm run build`
-
 ## Configuration de gitHub
 
 - Création de son compte
@@ -74,6 +70,10 @@ _Bibliothèque javascript qui permet la création de graphique tel que les "doug
 ## Envoie des Commits
 
 `git push`
+
+## Build du site
+
+`npm run build`
 
 ## Déploiement du site
 
