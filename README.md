@@ -97,7 +97,7 @@ _Bibliothèque javascript qui permet la création de graphique tel que les "doug
 
 _Gimp 2 m'a permit d'ajuster la résolution de certaines images ainsi que d'ajouter certains effets_
 
-## Changement apporté dans les fichiers
+## Changements apportés dans les fichiers
 
 - Changement de l'indentation et des ";" dans les fichiers de configuration eslintrc.js et .editorconfig
 - Changement du fichier de config build/webpack.dev.conf afin d'être plus performant sur chrome (devtool: 'source-map')

@@ -31,6 +31,9 @@ body{
     text-align: left;
     vertical-align: middle;
 }
+.progress-bar{
+    margin-bottom: 20px;
+}
 .row{
     margin-bottom: 50px;
 }
