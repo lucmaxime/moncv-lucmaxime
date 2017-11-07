@@ -10,7 +10,7 @@ $(document).ready(() => {
         let value = $(element).attr('aria-valuenow');
         let remainingValue = $(element).attr('aria-valuemax') - value;
         let language = $(element).text();
-        $(element).replaceWith('<canvas id="chart' + index + '"width="100" height="100"></canvas>');
+        $(element).replaceWith('<canvas id="chart' + index + '" width="100" height="100"></canvas>');
         let ctx = $('#chart' + index + '');
 
         //eslint-disable-next-line
@@ -19,17 +19,17 @@ $(document).ready(() => {
             data: {
                 datasets: [
                     {
-                        backgroundColor: ['#3e95cd', '#FFFFFF'],
+                        backgroundColor: ['#2b3e50', '#FFFFFF'],
                         data: [value, remainingValue]
                     }
                 ]
             },
             options: {
-                responsive: true,
                 title: {
                     display: true,
                     text: [language],
-                    fontSize: 18
+                    fontSize: 18,
+                    fontColor: 'white'
                 },
                 tooltips: {
                     enabled: false
