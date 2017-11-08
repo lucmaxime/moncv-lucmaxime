@@ -101,6 +101,13 @@ _Gimp 2 m'a permit d'ajuster la résolution de certaines images ainsi que d'ajou
 
 - Changement de l'indentation et des ";" dans les fichiers de configuration eslintrc.js et .editorconfig
 - Changement du fichier de config build/webpack.dev.conf afin d'être plus performant sur chrome (devtool: 'source-map')
+- Ajout dans webpack.prod.conf.js afin de voir javascript sur le site déployé
+```new webpack.ProvidePlugin({
+      $: "jquery",
+      jQuery: "jquery"
+    }),
+```
+
 - Ajout du code suivant dans eslintrc.js
 
 ```{
