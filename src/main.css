@@ -2,9 +2,9 @@
     padding: 2em 0;
     color: white;
 }
-.center{
-    margin:auto;
-    float:none;  /* annule le float:left de bootstrap*/
+.centerrow{
+    margin-left:10%;
+    margin-right:10%;
 }
 .container-fluid:nth-child(even) {
     background: #516497;
