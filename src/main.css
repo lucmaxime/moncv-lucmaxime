@@ -6,6 +6,7 @@
     margin-left:10%;
     margin-right:10%;
 }
+
 .container-fluid:nth-child(even) {
     background: #516497;
 }
@@ -13,7 +14,9 @@
 .container-fluid:nth-child(odd) {
     background: #2b3e50;
 }
-
+.info-perso {
+    padding-left: 15%;
+}
 .info-perso span {
     display: block;
 }
