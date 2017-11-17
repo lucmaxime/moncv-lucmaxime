@@ -3,8 +3,11 @@ import 'bootstrap-css-only/css/bootstrap.min.css';
 import './main.css';
 import 'jquery-smooth-scroll';
 import Chart from 'chart.js';
+import ScrollReveal from 'scrollreveal';
 
 $(document).ready(() => {
+    let elem = new ScrollReveal();
+    elem.reveal('.dynamique');
     $('a').smoothScroll();
     $('.progress').each((index, element) => {
         let value = $(element).attr('aria-valuenow');
