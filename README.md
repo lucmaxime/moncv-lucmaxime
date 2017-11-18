@@ -60,7 +60,7 @@ _Jquery smooth-scroll est une bibliothèque jquery qui permet un défilement flu
 `npm install jquery-smooth-scroll`
 
 ## Installation de Chart.js
-_Bibliothèque javascript qui permet la création de graphique tel que les "doughnuts" du site
+_Bibliothèque javascript qui permet la création de graphique tel que les "doughnuts" du site_
 
 `npm install chart.js`
 
